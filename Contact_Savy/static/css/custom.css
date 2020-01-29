@@ -1,0 +1,236 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    color:#9B9B9B;
+}
+
+/* ==================================================
+                    NAVBAR
+===================================================== */
+.navbar {
+    background-color: #4A90E2; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #4A90E2 , #80C3F3);
+    background-image: -webkit-linear-gradient(to right, #4A90E2 , #80C3F3);
+    background-image:    -moz-linear-gradient(to right, #4A90E2 , #80C3F3);
+    background-image:      -o-linear-gradient(to right, #4A90E2 , #80C3F3);
+
+    box-shadow: 1px 2px 2px 1px #9B9B9B;
+    -webkit-box-shadow: 1px 2px 2px 1px #9B9B9B;
+    -moz-box-shadow: 1px 2px 2px 1px #9B9B9B;
+    -o-box-shadow: 1px 2px 2px 1px #9B9B9B;
+    padding: 20px 20px;
+}
+
+.logo-img{
+    width: 215px;
+}
+
+/* ==================================================
+                    MY Contacts
+===================================================== */
+.cont-space{
+    margin-top: 50px;
+}
+
+.icon-style{
+    display: none;
+}
+
+.grey-line{
+    margin-top: 20px;
+    background-color: rgba(155,155,155, 0.2);  /* bg-color = #9B9B9B; opacity 20% */
+    padding: 3px 3px 0px 10px;
+}
+
+.grey-line p{
+    color: #4A4A4A;
+}
+.margin-r{
+    margin-right: 40px;
+}
+.person-data h4{
+    color: #4A4A4A;
+}
+.person-data p{
+    color: #9B9B9B;
+}
+
+
+.img-style{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    border: 2px solid #9B9B9B;
+}
+.user1{
+    background-image: url('../Assets/user5.jpg');
+}
+.user2{
+    background-image: url('../Assets/user2.jpg');
+}
+.user3{
+    background-image: url('../Assets/user3.jpg');
+}
+.user4{
+    background-image: url('../Assets/user1.jpg');
+}
+.user5{
+    background-image: url('../Assets/user4.jpg');
+}
+.profile{
+    background-image: url('../Assets/profile-placeholder.png');
+}
+
+
+.icon-trash{
+    color:#4A90E2;
+    font-size: 20px;
+}
+.img-size, .modal-image{
+    width: 150px;
+    height: 150px;
+}
+
+.custom-blue-btn{
+    padding: 5px 50px;
+    color: #4A90E2;
+    border-color: #4A90E2;
+}
+.custom-blue-btn:hover{
+    color: #fff;
+    background-color: #4A90E2;
+    border-color: #4A90E2;
+}
+
+.custom-grey-btn{
+    padding: 5px 50px;
+    color: #9B9B9B;
+    border-color: #9B9B9B;
+}
+
+.custom-grey-btn:hover{
+    color: #fff;
+    background-color: #9B9B9B;
+    border-color: #9B9B9B;
+}
+
+/* ==================================================
+                    Modal
+===================================================== */
+
+.input-continer{
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.modal-title{
+    font-size: 30px;
+    color:#4A90E2;
+}
+
+.modal-footer{
+    justify-content: center;
+}
+
+/* ==================================================
+                    Modal Delete
+===================================================== */
+
+.modal-text-size{
+    font-size: 20px;
+    color: #9B9B9B;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.close{
+    font-size: 40px;
+    color: #9B9B9B;
+}
+
+@media (max-width:768px){
+    .ml-auto{
+        margin-left: 0 !important;
+    }
+}
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (max-width:480px){
+    /* ==================================================
+                        NAVBAR
+    ===================================================== */
+    .navbar {
+        box-shadow: 1px 2px 2px 1px #fff;
+        -webkit-box-shadow: 1px 2px 2px 1px #fff;
+        -moz-box-shadow: 1px 2px 2px 1px #fff;
+        -o-box-shadow: 1px 2px 2px 1px #fff;
+        padding: 30px 30px;
+    }
+    .logo-img{
+        width: 150px;
+        position: absolute;
+        left: 50%;
+        bottom: 30%;
+        transform: translateX(-50%);
+    }
+
+    /* ==================================================
+                    MY Contacts
+    ===================================================== */
+    .cont-space{
+        margin-top: 20px;
+    }
+    .cont-space h3{
+        font-size: 20px;
+    }
+
+    .btn-display{
+        display: none;
+    }
+    .icon-style{
+        display: block;
+        color: #4A90E2;
+        font-size: 25px;
+    }
+    .custom-checkbox{
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+    }
+    .custom-grey-btn, .custom-blue-btn{
+        padding: 5px 30px;
+    }
+
+    .person-data p{
+        font-size: 13px;
+    }
+
+    .person-data h4{
+        font-size: 18px;
+    }
+    .img-style{
+        width: 70px;
+        height: 70px;
+    }
+    .modal-image{
+        width: 100px;
+        height: 100px;
+    }
+    .wrapper{
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .gray-line p{
+        padding-left: 15px;
+    }
+}
+
+@media (max-width:320px){
+    .margin-r{
+        margin: 0;
+    }
+}

@@ -1,0 +1,167 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #4A4A4A
+}
+
+header{
+    height: 65px;
+    background-image: -webkit-linear-gradient(to right, #4A90E2 , #80C3F3);
+    background-image: -moz-linear-gradient(to right, #4A90E2 , #80C3F3);
+    background-image: -ms-linear-gradient(to right, #4A90E2 , #80C3F3);
+    background-image: -o-linear-gradient(to right, #4A90E2 , #80C3F3);
+    background-image: linear-gradient(to right, #4A90E2 , #80C3F3);
+    box-shadow: 2px 2px #9B9B9B;
+}
+
+header img{
+    width: 213px;
+}
+
+#addNewContact img{
+    border: 1px solid;
+}
+
+h3{
+    color: #9B9B9B
+}
+
+h4{
+    color: #4A90E2
+}
+
+
+.btn{
+    border: 1px solid;
+    width: 136px;
+
+}
+
+.btn-outline-primary{
+    border-color: #4A90E2;
+    color: #4A90E2
+}
+
+.btn-outline-secondary{
+    color: #9B9B9B;
+    border-color: #4A4A4A
+}
+
+.btn-outline-primary:hover{
+    background-color: #4A90E2;
+    color: #fff;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #4A4A4A;
+    color: #fff;
+}
+
+
+.contactHeading{
+    background-color: rgba(155, 155, 155, 0.2);
+    height: 20px;
+}
+
+.contactImage{
+    width: 73px;
+    height: 73px;
+    border: 1px solid #9B9B9B;
+}
+
+.userimage1{
+    background-image: url("../Assets/user5.jpg")
+}
+
+.userimage2{
+    background-image: url("../Assets/user2.jpg")
+}
+
+.userimage3{
+    background-image: url("../Assets/user3.jpg")
+}
+
+.userimage4{
+    background-image: url("../Assets/user1.jpg")
+}
+
+.userimage5{
+    background-image: url("../Assets/user4.jpg")
+}
+
+.contactImage{
+    background-position: center;
+    background-size: cover
+}
+
+.contact:not(:last-child) {
+    border-bottom: 1px solid rgba(155, 155, 155, 0.2);
+}
+
+.contact{
+    padding: 5% 0;
+}
+
+.contact button{
+    border: none;
+    background-color: white;
+}
+
+.far{
+    color: #4A90E2
+}
+
+.contactInfo{
+    color: #9B9B9B;
+    display: inherit;
+}
+
+#addNewContactModel img{
+    width: 106px;
+    height: 104px;
+    border: 1px solid #9B9B9B
+}
+
+.modal{
+    color: #9B9B9B;
+}
+
+#deleteContactModel .modal-dialog{
+    top: 35%;
+}
+
+#addNewContactModel .modal-dialog{
+    top: 12%;
+}
+
+#addNewContactModel::placeholder, #addNewContactModel:-ms-input-placeholder, #addNewContactModel::-ms-input-placeholder {
+    color: #9B9B9B;
+    opacity: 0.1;
+}
+
+.fas{
+    color: #9B9B9B;
+}
+
+@media screen and (min-width: 1280px){
+    header{
+        height: 90px;
+    }
+
+    .contactImage{
+        width: 103px;
+        height: 103px;
+    }
+
+    #addNewContactModel img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .contactHeading{
+        height: 30px;
+    }
+
+    .contact{
+        padding: 2% 0;
+    }
+}
